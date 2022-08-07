@@ -22,7 +22,18 @@ fun main(){
     val isNotEqual = 5!=5
     //println("isEqual is $isNotEqual")
     //String interpolation $
-    println("is5greater3 ${5>3}")
-    println("is5LowerEqual3 ${5 <= 3}")
-    println("is5GreaterEqual3 ${5>=3}")
+    //println("is5greater3 ${5>3}")
+    //println("is5LowerEqual3 ${5 <= 3}")
+    //println("is5GreaterEqual3 ${5>=3}")
+
+    // Assignment operators(+=, -=, *=, /=., %=)
+    var myNum = 5
+    myNum += 3
+   // println("myNum is ${myNum}")
+
+    // Increment & Decrement operators(++,--)
+    myNum++
+    println("myNum is ${myNum}")
+    println("myNum is ${myNum++}")
+    println("myNum is ${++myNum}")
 }
