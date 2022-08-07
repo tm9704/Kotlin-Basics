@@ -25,6 +25,21 @@ fun main(){
     // Floating Point number Types: Float(32bit), Double(64bit)
     val myFloat: Float = 13.37F
     val myDouble: Double = 3.14159265358979323846
+
+    // Booleans the type Boolean is used to represent logical values.
+    // It can have two possible values true and false.
+    var isSunny: Boolean = true
+    isSunny = false
+
+    // Characters
+    val letterChar = 'A'
+    val digitChar = '1'
+
+    // Strings
+    val myStr = "HelloWorld"
+    var firstCharInStr = myStr[0] // 문자열 첫번째 문자에 접근
+    var lastCharInStr = myStr[myStr.length - 1]
+
 }
 
 
