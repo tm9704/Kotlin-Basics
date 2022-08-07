@@ -40,6 +40,14 @@ fun main(){
     var firstCharInStr = myStr[0] // 문자열 첫번째 문자에 접근
     var lastCharInStr = myStr[myStr.length - 1]
 
+    // Practice
+    var className: String = "Android Masterclass"
+    val floatEx: Float = 13.37F
+    val doublePi: Double = 3.14159265358979
+    var byteEx: Byte = 25
+    var intEx: Int = 2020
+    var longEx: Long = 18881234567
+    var boolEx: Boolean = true
+    var chrEx: Char = 'a'
 }
-
 
