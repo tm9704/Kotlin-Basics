@@ -2,12 +2,12 @@ package com.tm9704.kotlinbasics
 
 fun main(){
     // While loop executes a block of code repeatedly as long as a given condition is true
-    var x = 1
+    var x = 100
     /*while(x<=10){
         println("$x")
         x++
     }
-    println("while loop is done")*/
+    println("while loop is done")
     x = 15
     do{
         println("$x")
@@ -15,4 +15,15 @@ fun main(){
     }while(x <= 10)
     println("do while loop is done")
 
+    //while reivew
+    var feltTemp = "cold"
+    var roomTemp = 10
+    while(feltTemp == "cold"){
+        roomTemp++
+        if(roomTemp >= 20){
+            feltTemp = "comfy"
+            println("it's comfy now")
+        }
+    }*/
+    
 }
