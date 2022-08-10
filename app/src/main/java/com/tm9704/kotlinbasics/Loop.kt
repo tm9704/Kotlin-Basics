@@ -44,7 +44,7 @@ fun main(){
     }*/
 
     // Loop Practice
-    for(num in 1..10000){
+    /*for(num in 1..10000){
         if(num == 9001)
             print("IT'S OVER 9000!")
     }
@@ -58,5 +58,21 @@ fun main(){
             humidity = "comfy"
             println("it's comfy now")
         }
+    }*/
+
+    //Bonus - 1. break
+    /*for(i in 1 until 20){
+        print("$i ")
+        if(i/2 == 5){
+            break
+        }
+    }*/
+    //Bonus - 2. continue
+    for(i in 1 until 20){
+        if(i/2 == 5){
+            continue
+        }
+        print("$i ")
     }
+    print("Done with the loop")
 }
