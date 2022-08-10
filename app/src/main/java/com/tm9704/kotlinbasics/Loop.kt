@@ -25,5 +25,21 @@ fun main(){
             println("it's comfy now")
         }
     }*/
-    
+
+    //for loop
+    for(num in 1..10){
+        print("$num")
+    }
+
+    println("--------------------------------")
+
+    for(i in 1 until 10){ // Same as - for(i in 1.until(10)
+        print("$i ")
+    }
+
+    println("--------------------------------")
+
+    for(i in 10 downTo 1 step 2){ // Same as - for(i in 10.downTo(1).step(2)
+        print("$i ")
+    }
 }
